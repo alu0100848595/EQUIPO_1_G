@@ -75,8 +75,8 @@ Elemento A & Elemento B & Elemento C
 Prueba de referencia a tabla. \ref{Tabla}
 
 \begin{thebibliography}{1}
-\bibitem{latex} Tutorial de \LaTeX{} 1. http://campusvirtual.ull.es/1314/pluginfile.php/197714/mod_resource/content/3/TeoriaLaTeX.1.pdf
-\bibitem{latex} Tutorial de \LaTeX{} 2. http://campusvirtual.ull.es/1314/pluginfile.php/197721/mod_resource/content/3/TeoriaLaTeX.2.pdf
+\bibitem{Tabla} Tutorial de \LaTeX{} 1. http://campusvirtual.ull.es/1314/pluginfile.php/197714/mod_resource/content/3/TeoriaLaTeX.1.pdf
+\bibitem{figure} Tutorial de \LaTeX{} 2. http://campusvirtual.ull.es/1314/pluginfile.php/197721/mod_resource/content/3/TeoriaLaTeX.2.pdf
 \end{thebibliography}
 
 \end{document}
