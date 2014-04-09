@@ -1,0 +1,82 @@
+\documentclass[spanish,a4paper,10pt]{article}
+
+\usepackage{latexsym,amsfonts,amssymb,amstext,amsthm,float,amsmath}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{epsfig}
+\usepackage{doc}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%123456789012345678901234567890123456789012345678901234567890123456789
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\textheight 29cm
+%\textwidth 15cm
+%\topmargin -4cm
+%\oddsidemargin 5mm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{Número $\pi$}
+\author{Oscar Andrés Díaz Sánchez \\ Práctica de Laboratorio \#10}
+\date{9 de abril de 2014}
+
+\maketitle
+
+\begin{abstract}
+El objetivo de esta práctica es crear un imforme escrito en \LaTeX{}
+sobre el número $\pi$.
+\end{abstract}
+
+%\thispagestyle{empty}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Sección 1}
+
+Ejemplo de sección 1
+%
+\subsection{Subsección 1.1}
+Ejemplo de subsección\footnote{Esto es un pie de página de la subsección} 1.1
+%
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Sección 2}
+
+Ejemplo de sección 2
+%
+\subsection{Subsección 2.1}
+Ejemplo de subsección 2.1\footnote{Esto es un pie de página de la subsección 2.1}
+
+\begin{enumerate}
+  \item
+    Objeto 1
+  \item
+    Objeto 2
+\end{enumerate}
+
+\subsection{Gráfico}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.075]{imagen1.eps} \end{center}
+\caption{Universidad de La Laguna}
+\label{Imagen}
+\end{figure}
+Prueba de referencia a tabla. \ref{figure}
+
+\subsection{Tabla}
+\begin{Tabla
+\begin{tabular}{lrc}
+Columna 1 & Columna 2 & Columna 3 \\ \hline
+Elemento 1 & Elemento 2 & Elemento 3 \\
+Elemento A & Elemento B & Elemento C
+\end{tabular}
+\end{Tabla}
+Prueba de referencia a tabla. \ref{Tabla}
+
+\begin{thebibliography}{1}
+\bibitem{Tabla} Tutorial de \LaTeX{} 1. http://campusvirtual.ull.es/1314/pluginfile.php/197714/mod_resource/content/3/TeoriaLaTeX.1.pdf
+\bibitem{figure} Tutorial de \LaTeX{} 2. http://campusvirtual.ull.es/1314/pluginfile.php/197721/mod_resource/content/3/TeoriaLaTeX.2.pdf
+\end{thebibliography}
+
+\end{document}
