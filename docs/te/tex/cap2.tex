@@ -1,26 +1,27 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter 2: Fundamentos Teóricos 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Programa en Pythom}
+#! encoding: UTF-8
+#! /usr/bin/python 
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+import math
 
-En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-apoyan el tema objeto de la investigación.
+Cero=0.00001
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+def f(x):
+ return sin(x)
 
-\section{Primer apartado del segundo capítulo}
-%\label{2:sec:1}
-  En \LaTeX{}~\cite{Lamport:LDP94} es sencillo escribir expresiones
-  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
-  y deben ser escritas entre simbolos \$.
-  Los superíndices se obtienen con el símbolo \^{}, y
-  los subíndices con el símbolo \_.
-  Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
-  También se pueden escribir fórmulas centradas:
-  \[h^2=a^2 + b^2 \]
+def biseccion(a,b,tol):
+ c=float((a+b)/2.0)
+ while f(c) != Cero) and abs(b-a) > tol:
+  if f(a) * f(c) < Cero
+   b = c;
+  else
+   a = c;
+  c = (a+b)/2.0
+ return c
 
-%\section{Segundo apartado del segundo capítulo}
-%\label{2:sec:2}
- % Primer párrafo de la segunda sección.
-
+print 'Calcular la raÃ­z de sen de x'
+a = float(raw_input('Valor a del intervalo: '))
+b = float(raw_input('Valor b del intervalo: '))
+t = 0.00000000000001
+r = biseccion(a,b,t)
+print "El valor de la raÃ­z de seno de x es: %f"%(r)
