@@ -2,31 +2,49 @@
 % Chapter 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este capítulo ha de contar con seccciones para la descripción de los experimentos 
+Este capï¿½tulo ha de contar con seccciones para la descripciï¿½n de los experimentos 
 y del material.
 %
-También debe haber una sección para los resultados obtenidos y una última de 
-análisis de los resultados.
+Tambiï¿½n debe haber una secciï¿½n para los resultados obtenidos y una ï¿½ltima de 
+anï¿½lisis de los resultados.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripción de los experimentos}
+
+\section{Programa en Pythom}
 \label{3:sec:1}
+\begin{verbatim}
+#! encoding: UTF-8
+#! /usr/bin/python 
 
-bla, bla, etc. 
+import sin from math
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripción del material}
-\label{3:sec:2}
+Cero=0.00001
 
-bla, bla, etc. 
+def f(x):
+ return sin(x)
+
+def biseccion(a,b,tol):
+ c=float((a+b)/2.0)
+ while f(c) != Cero) and abs(b-a) > tol:
+  if f(a) * f(c) < Cero
+   b = c;
+  else
+   a = c;
+  c = (a+b)/2.0
+ return c
+
+print 'Calcular la raÃ­z de sen de x'
+a = float(raw_input('Valor a del intervalo: '))
+b = float(raw_input('Valor b del intervalo: '))
+t = 0.00000000000001
+r = biseccion(a,b,t)
+print "El valor de la raÃ­z de seno de x es: %f"%(r)
+\end{verbatim}
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
-\label{3:sec:3}
-
-bla, bla, etc. 
-
+\label{3:sec:2}
 
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
@@ -43,9 +61,4 @@ bla, bla, etc.
 \input{tables/table.tex}
 %------------------------------------------------------------------------------
 
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Análisis de los resultados}
-\label{3:sec:4}
-
-bla, bla, etc. 
 
