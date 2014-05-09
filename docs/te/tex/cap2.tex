@@ -1,27 +1,11 @@
-\section{Programa en Pythom}
-#! encoding: UTF-8
-#! /usr/bin/python 
-
-import math
-
-Cero=0.00001
-
-def f(x):
- return sin(x)
-
-def biseccion(a,b,tol):
- c=float((a+b)/2.0)
- while f(c) != Cero) and abs(b-a) > tol:
-  if f(a) * f(c) < Cero
-   b = c;
-  else
-   a = c;
-  c = (a+b)/2.0
- return c
-
-print 'Calcular la raíz de sen de x'
-a = float(raw_input('Valor a del intervalo: '))
-b = float(raw_input('Valor b del intervalo: '))
-t = 0.00000000000001
-r = biseccion(a,b,t)
-print "El valor de la raíz de seno de x es: %f"%(r)
+\section{Método de bisección}
+\begin{enumerate}
+ \item
+   Se basa en el Teorema del Valor Intermedio (TVI), el cual establece que toda función continua f en un intervalo cerrado [a,b] toma todos los valores que se hallan entre f(a) y f(b). 
+ \item
+   Esto es que: todo valor entre f(a) y f(b) es la imagen de al menos un valor en el intervalo [a,b]. 
+ \item
+   En caso de que f(a) y f(b) tengan signos opuestos, el valor cero sería un valor intermedio entre f(a) y f(b), por lo que con certeza existe un p en [a,b] que cumple f(p) = 0. 
+ \item
+   De esta forma, se asegura la existencia de al menos una solución de la ecuación f(x) = 0.
+\end{enumerate}
