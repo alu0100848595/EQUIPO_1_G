@@ -7,11 +7,34 @@
 
 \section{Procedimiento}
 \label{3:sec:1}
-
+El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
+\begin{enumerate}
+ \item
+  Se ''parte'' por la mitad el intervalo [a,b]. Por lo que se cogen los valores de los extremos y se dividen por $2$.
+  \begin{center}
+   $$ c_1=\frac{a+b}{2} $$
+  \end{center}
+ \item
+  Luego hay que mirar los signos de la función en el punto c y comparar con los signos de la función de los extremos.
+   \begin{enumerate}
+    \Item
+     Si $f(a)*f(c)<0$ se sustituye $c$ por $b$ quedandose $$c_2=\frac{a+c_1}{2}$$
+    \Item
+     Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
+   \end{enumerate}
+ \item
+  Y este proceso se va haciendo hasta que la función en el punto $c_n$ es igual a $0$
+ \item
+  Hay que tener en cuenta que este método tiene un error y se puede calcular con:
+  \begin{center}
+   $$ error=\frac{b-a}{2^n} siendo n las veces que se ha partido$$
+  \end{center}
+\end{enumerate}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Programa en Python}
 \label{3:sec:2}
+Este es el programa hecho en python
 \begin{verbatim}
 #! encoding: UTF-8
 #! /usr/bin/python 
@@ -28,9 +51,11 @@ def biseccion(a,b,tol):
  while f(c) != Cero) and abs(b-a) > tol:
   if f(a) * f(c) < Cero
    b = c;
-  else
+  elif f(b) * f(c) < Cero
    a = c;
-  c = (a+b)/2.0
+   c = (a+b)/2.0
+  else
+   break
  return c
 
 print 'Calcular la raíz de sen de x'
