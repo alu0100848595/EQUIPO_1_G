@@ -27,14 +27,14 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
  \item
   Hay que tener en cuenta que este método tiene un error y se puede calcular con:
   \begin{center}
-   $$ error=\frac{b-a}{2^n} siendo n las veces que se ha partido$$
+    $$error=\frac{b-a}{2^n}$$ 
+  Siendo n las veces que se ha partido.
   \end{center}
 \end{enumerate}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Programa en Python}
 \label{3:sec:2}
-Este es el programa hecho en python
 \begin{verbatim}
 #! encoding: UTF-8
 #! /usr/bin/python 
@@ -48,37 +48,18 @@ def f(x):
 
 def biseccion(a,b,tol):
  c=float((a+b)/2.0)
- while f(c) != Cero) and abs(b-a) > tol:
+ while f(c) != Cero and abs(b-a) > tol:
   if f(a) * f(c) < Cero
    b = c;
-  elif f(b) * f(c) < Cero
+  else f(b) * f(c) < Cero
    a = c;
    c = (a+b)/2.0
-  else
-   break
  return c
 
-print 'Calcular la raíz de sen de x'
+print 'Calcular la raíz de sen(x)'
 a = float(raw_input('Valor a del intervalo: '))
 b = float(raw_input('Valor b del intervalo: '))
 t = 0.00000000000001
 r = biseccion(a,b,t)
 print "El valor de la raíz de seno de x es: %f"%(r)
 \end{verbatim}
-
-%------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-\caption{Ejemplo de figura}
-\label{fig:1}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
-
-
-%------------------------------------------------------------------------------
-\input{tables/table.tex}
-%------------------------------------------------------------------------------
-
-
