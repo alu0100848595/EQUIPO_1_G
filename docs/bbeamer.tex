@@ -87,7 +87,7 @@
 \subsection{Procedimiento}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Procedimiento (Parte 1)}
 El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
  \item
   Se "parte" por la mitad el intervalo [a,b]. Por lo que se cogen los valores de los extremos y se dividen por $2$.
@@ -104,9 +104,8 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
      Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
 \end{frame}
 \subsection{Procedimiento}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Procedimiento (Parte 2)}
 
  \item
   Este proceso se va haciendo hasta que la función en el punto $c_n$ es igual a $0$
@@ -125,42 +124,15 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
 \subsection{Código} 
 \begin{frame}[fragile]
 
-\frametitle{Bisección de sen (x)}
-\small
-\begin{verbatim}
-#! encoding: UTF-8 
-#! /usr/bin/python 
-
-import sin from math
-
-Cero=0.00001
-
-def f(x):
- return sin(x)
-
-def biseccion(a,b,tol):
- c=float((a+b)/2.0)
- while f(c) != Cero and abs(b-a) > tol:
-  if f(a) * f(c) < Cero
-   b = c;
-  else f(b) * f(c) < Cero
-   a = c;
-   c = (a+b)/2.0
- return c
-
-print 'Calcular la raíz de sen de x'
-a = float(raw_input('Valor a del intervalo: '))
-b = float(raw_input('Valor b del intervalo: '))
-t = 0.00000000000001
-r = biseccion(a,b,t)
-print "El valor de la raíz de seno de x es: %f"%(r)
-\end{verbatim}
-
+\frametitle{Código}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{xcgc.png} 
+\end{center}
 \end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \section{Bibliografía}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
   \frametitle{Bibliografía}
 
