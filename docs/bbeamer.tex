@@ -27,24 +27,25 @@
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
 \begin{frame}
   \frametitle{Índice}  
   \tableofcontents[pausesections]
 \end{frame}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \section{Motivación y objetivos}
 \begin{frame}
 
 \frametitle{Motivación y objetivos}
-\begin{Motivation}
+\begin{block}{Motivation}
     Aplicar los conocimientos obtenido en python para resolver una función según el método de la bisección.
-\end{Motivation}
+\end{block}
 
-\begin{Objetivos}
-     Resolver, mediante el método de la bisección (usando python) la función sin(x).
-\end{Objetivos}
+\begin{block}{Objetivos}
+     Resolver, mediante el método de la bisección (usando python), la función sin(x).
+\end{block}
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -83,19 +84,17 @@
 \begin{frame}
 \frametitle{Procedimiento}
 El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
+\begin{block}
  \item
   Se "parte" por la mitad el intervalo [a,b]. Por lo que se cogen los valores de los extremos y se dividen por $2$.
   \begin{center}
    $$ c_1=\frac{a+b}{2} $$
   \end{center}
  \pause
- 
  \item
   Luego hay que mirar los signos de la función en el punto c y comparar con los signos de la función de los extremos.
-    \Item
-     Si $f(a)*f(c)<0$ se sustituye $c$ por $b$ quedandose $$c_2=\frac{a+c_1}{2}$$
-    \Item
-     Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
+ \item
+  Si $f(a)*f(c)<0$ se sustituye $c$ por $b$ quedandose $$c_2=\frac{a+c_1}{2}$$ \end{block}
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -103,17 +102,19 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
 \subsection{Procedimiento (Parte 2)}
 \begin{frame}
 \frametitle{Procedimiento}
-
+\begin{block}
+ \item
+  Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
+ \pause
  \item
   Este proceso se va haciendo hasta que la función en el punto $c_n$ es igual a $0$
  \pause
- 
  \item
   Hay que tener en cuenta que este método tiene un error y se puede calcular con:
-  \begin{center}
-   $$ error=\frac{b-a}{2^n} $$ 
-  \end{center} 
-  Siendo n las veces que se ha partido.
+ \begin{center}
+  $$ error=\frac{b-a}{2^n} $$ 
+ \end{center} 
+  Siendo n las veces que se ha partido. \end{block}
  
 \end{frame}
 
