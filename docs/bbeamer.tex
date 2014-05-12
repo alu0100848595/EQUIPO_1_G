@@ -4,22 +4,17 @@
 
 \newtheorem{definicion}{Definición}
 \newtheorem{ejemplo}{Ejemplo}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title[Método de Bisección]{Metodo de Bisección}
 \author[Equipo 1 G]{Equipo 1-G}
 \date[11-05-2014]{11 de mayo de 2014}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \usetheme{Madrid}
-%\usetheme{Antibes}
-%\usetheme{tree}
-%\usetheme{classic}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
   
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
 \begin{frame}
 
   \begin{small}
@@ -30,7 +25,6 @@
   \end{small}
 
 \end{frame}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
@@ -80,14 +74,14 @@
 \end{block}
 
 \end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \section{Procedimiento experimental}
 
-\subsection{Procedimiento}
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\subsection{Procedimiento (Parte 1)}
 \begin{frame}
-\frametitle{Procedimiento (Parte 1)}
+\frametitle{Procedimiento}
 El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
  \item
   Se "parte" por la mitad el intervalo [a,b]. Por lo que se cogen los valores de los extremos y se dividen por $2$.
@@ -95,7 +89,7 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
    $$ c_1=\frac{a+b}{2} $$
   \end{center}
  \pause
-
+ 
  \item
   Luego hay que mirar los signos de la función en el punto c y comparar con los signos de la función de los extremos.
     \Item
@@ -103,22 +97,26 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
     \Item
      Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
 \end{frame}
-\subsection{Procedimiento}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\subsection{Procedimiento (Parte 2)}
 \begin{frame}
-\frametitle{Procedimiento (Parte 2)}
+\frametitle{Procedimiento}
 
  \item
   Este proceso se va haciendo hasta que la función en el punto $c_n$ es igual a $0$
  \pause
+ 
  \item
   Hay que tener en cuenta que este método tiene un error y se puede calcular con:
   \begin{center}
    $$ error=\frac{b-a}{2^n} $$ 
   \end{center} 
   Siendo n las veces que se ha partido.
- \pause
-
+ 
 \end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Código} 
@@ -129,6 +127,15 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
 \includegraphics[width=0.6\textwidth]{xcgc.png} 
 \end{center}
 \end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Conclusiones}
+\begin{frame}[fragile]
+\frametitle{Conclusiones}
+
+\end{frame}
+
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
@@ -159,4 +166,5 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
 \end{document}
