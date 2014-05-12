@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.10)  12 MAY 2014 20:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.10)  12 MAY 2014 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,8 +898,7 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemeinfolines.
 sty
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
-))
-No file bbeamer.aux.
+)) (./bbeamer.aux)
 \openout1 = `bbeamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -916,6 +915,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -993,6 +993,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
+
+(./bbeamer.out) (./bbeamer.out)
 \@outlinefile=\write5
 \openout5 = `bbeamer.out'.
 
@@ -1064,17 +1066,21 @@ tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 20.
-
-No file bbeamer.nav.
+ (./bbeamer.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 32.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-No file bbeamer.toc.
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./bbeamer.toc) [2
+
+]
+(./bbeamer.toc) [3
+
+] (./bbeamer.toc) [4
+
+] (./bbeamer.toc) [5
 
 ]
 
@@ -1084,18 +1090,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{frame}
+l.55 \end{frame}
                 
 ? 
 
-! LaTeX Error: \begin{beamer@framepauses} on input line 59 ended by \end{Motiva
+! LaTeX Error: \begin{beamer@framepauses} on input line 55 ended by \end{Motiva
 tion}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{frame}
+l.55 \end{frame}
                 
 ? 
 
@@ -1105,243 +1111,287 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{frame}
+l.55 \end{frame}
                 
 ? 
 
-! LaTeX Error: \begin{beamer@framepauses} on input line 59 ended by \end{Objeti
+! LaTeX Error: \begin{beamer@framepauses} on input line 55 ended by \end{Objeti
 vos}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{frame}
+l.55 \end{frame}
                 
 ? 
-[3
-
-] [4
-
-] [5
-
-] [6
+[6
 
 ] [7
 
+] [8
+
+] [9
+
+] [10
+
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 127.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 105
+[][]
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 127.
+LaTeX Font Info:    Try loading font information for U+msb on input line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-! Undefined control sequence.
-<recently read> \Item 
-                      
-l.127 \end{frame}
-                 
-? 
-! Undefined control sequence.
-\beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
-                                                  Si $f(b)*f(c)<0$ se sustit...
-l.127 \end{frame}
-                 
-? 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{frame}
+l.105 \end{frame}
                  
 ? 
 
-Overfull \vbox (89.69572pt too high) detected at line 127
+Underfull \hbox (badness 10000) detected at line 105
+[][]
  []
 
-[8
-
-]
 ! Undefined control sequence.
-<recently read> \Item 
-                      
-l.127 \end{frame}
+\beamer@doifinframe ...รณn de los extremos. \Item 
+                                                  Si $f(a)*f(c)<0$ se sustit...
+l.105 \end{frame}
                  
 ? 
 ! Undefined control sequence.
 \beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
                                                   Si $f(b)*f(c)<0$ se sustit...
-l.127 \end{frame}
+l.105 \end{frame}
                  
 ? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \end{frame}
-                 
-? 
-
-Overfull \vbox (89.69572pt too high) detected at line 127
- []
-
-[9
-
-]
-! Undefined control sequence.
-<recently read> \Item 
-                      
-l.127 \end{frame}
-                 
-? 
-! Undefined control sequence.
-\beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
-                                                  Si $f(b)*f(c)<0$ se sustit...
-l.127 \end{frame}
-                 
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \end{frame}
-                 
-? 
-
-Overfull \vbox (89.69572pt too high) detected at line 127
- []
-
-[10
-
-]
-! Undefined control sequence.
-<recently read> \Item 
-                      
-l.127 \end{frame}
-                 
-? 
-! Undefined control sequence.
-\beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
-                                                  Si $f(b)*f(c)<0$ se sustit...
-l.127 \end{frame}
-                 
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \end{frame}
-                 
-? 
-
-Overfull \vbox (89.69572pt too high) detected at line 127
- []
-
 [11
 
 ]
-! Undefined control sequence.
-<recently read> \Item 
-                      
-l.127 \end{frame}
-                 
-? 
-! Undefined control sequence.
-\beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
-                                                  Si $f(b)*f(c)<0$ se sustit...
-l.127 \end{frame}
-                 
-? 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{frame}
+l.105 \end{frame}
                  
 ? 
 
-Overfull \vbox (89.69572pt too high) detected at line 127
+Underfull \hbox (badness 10000) detected at line 105
+[][]
  []
 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 105
+[][]
+ []
+
+! Undefined control sequence.
+\beamer@doifinframe ...รณn de los extremos. \Item 
+                                                  Si $f(a)*f(c)<0$ se sustit...
+l.105 \end{frame}
+                 
+? 
+! Undefined control sequence.
+\beamer@doifinframe ...2=\frac {a+c_1}{2}$$ \Item 
+                                                  Si $f(b)*f(c)<0$ se sustit...
+l.105 \end{frame}
+                 
+? 
 [12
 
 ]
-\openout4 = `bbeamer.vrb'.
 
- (./bbeamer.vrb)
-Overfull \vbox (96.15164pt too high) detected at line 164
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 122
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 122
+[][]
  []
 
 [13
 
 ]
 
-LaTeX Warning: Command \' invalid in math mode on input line 192.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.192 \end{frame}
-                 
-? 
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.192 \end{frame}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
                  
 ? 
 
-LaTeX Warning: Command \' invalid in math mode on input line 192.
+Underfull \hbox (badness 10000) detected at line 122
+[][]
+ []
 
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.192 \end{frame}
-                 
-? 
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.192 \end{frame}
-                 
-? 
-Missing character: There is no ่ in font cmex10!
-Missing character: There is no ่ in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 192.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.192 \end{frame}
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
                  
 ? 
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.192 \end{frame}
-                 
-? 
-Missing character: There is no ่ in font cmex10!
+
+Underfull \hbox (badness 10000) detected at line 122
+[][]
+ []
+
 [14
+
+]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 122
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \end{frame}
+                 
+? 
+
+Underfull \hbox (badness 10000) detected at line 122
+[][]
+ []
+
+[15
+
+]
+\openout4 = `bbeamer.vrb'.
+
+ (./bbeamer.vrb)
+Overfull \vbox (96.15164pt too high) detected at line 159
+ []
+
+[16
+
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 187.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.187 \end{frame}
+                 
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.187 \end{frame}
+                 
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 187.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.187 \end{frame}
+                 
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.187 \end{frame}
+                 
+? 
+Missing character: There is no ่ in font cmex10!
+Missing character: There is no ่ in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 187.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.187 \end{frame}
+                 
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.187 \end{frame}
+                 
+? 
+Missing character: There is no ่ in font cmex10!
+[17
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
 \tf@nav=\write6
@@ -1353,38 +1403,29 @@ Missing character: There is no ่ in font cmex10!
 \tf@snm=\write8
 \openout8 = `bbeamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 
 (./bbeamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package rerunfilecheck Info: File `bbeamer.out' has not changed.
+(rerunfilecheck)             Checksum: 04DF921DEEA22D2518920C178AC92F0D;414.
 
-
-Package rerunfilecheck Warning: File `bbeamer.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bbeamer.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0C53681472CC1E15F55249AD72E0774A;350.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 15917 strings out of 493304
- 295000 string characters out of 6139871
- 377360 words of memory out of 5000000
- 18950 multiletter control sequences out of 15000+600000
+ 16003 strings out of 493304
+ 296180 string characters out of 6139871
+ 374571 words of memory out of 5000000
+ 19013 multiletter control sequences out of 15000+600000
  14095 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,16n,57p,423b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,62p,423b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
@@ -1393,10 +1434,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on bbeamer.pdf (14 pages, 122698 bytes).
+Output written on bbeamer.pdf (17 pages, 127488 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 38 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 541 compressed objects within 6 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

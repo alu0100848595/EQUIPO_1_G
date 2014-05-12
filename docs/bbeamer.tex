@@ -41,13 +41,9 @@
 
 
 \section{Motivación y objetivos}
-
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 
 \frametitle{Motivación y objetivos}
-
 \begin{Motivation}
     Aplicar los conocimientos obtenido en python para resolver una función según el método de la bisección.
 \end{Motivation}
@@ -60,8 +56,6 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \section{Fundamentos teóricos}
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 
 \frametitle{Fundamentos teóricos}
@@ -95,7 +89,6 @@
 \begin{frame}
 \frametitle{Procedimiento}
 El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
-\begin{enumerate}
  \item
   Se "parte" por la mitad el intervalo [a,b]. Por lo que se cogen los valores de los extremos y se dividen por $2$.
   \begin{center}
@@ -105,22 +98,16 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
 
  \item
   Luego hay que mirar los signos de la función en el punto c y comparar con los signos de la función de los extremos.
-   \begin{enumerate}
     \Item
      Si $f(a)*f(c)<0$ se sustituye $c$ por $b$ quedandose $$c_2=\frac{a+c_1}{2}$$
     \Item
      Si $f(b)*f(c)<0$ se sustituye $c$ por $a$ quedandose $$c_2=\frac{c_1+b}{2}$$
-   \end{enumerate}
-
- 
-\end{enumerate}
 \end{frame}
 \subsection{Procedimiento}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 \frametitle{Procedimiento}
-El método de la bisección es un proceso iterativo que sigue los siguientes pasos:
-\begin{enumerate}
+
  \item
   Este proceso se va haciendo hasta que la función en el punto $c_n$ es igual a $0$
  \pause
@@ -131,8 +118,7 @@ El método de la bisección es un proceso iterativo que sigue los siguientes pas
   \end{center} 
   Siendo n las veces que se ha partido.
  \pause
- 
-\end{enumerate}
+
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
